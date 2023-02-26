@@ -26,8 +26,8 @@ h2 {
   color: var(--secondary-color);
   font-family: var(--font-mono);
   font-weight: 400;
-  font-size: 16px;
-  margin: 0px 0px 30px 4px;
+  font-size: 18px;
+  margin: 20px 0px 20px 4px;
 }
 h3 {
   margin-top: 5px;
@@ -38,4 +38,23 @@ h3 {
 p {
   margin: 20px 0px 0px;
   max-width: 540px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.navbar-color {
+ color: var(--primary-color);
+ font-size: 16px;
+}
+.navbar-color:hover {
+    color: var(--secondary-color);
+}
+.navbar-brand {
+  color: var(--secondary-color);
+ 
+}
+.navbar-brand:hover {
+  color: var(--primary-color);
 }
