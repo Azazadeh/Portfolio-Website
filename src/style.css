@@ -68,10 +68,22 @@ a {
 
 footer {
   font-size: 16px;
+  padding: 10px 0px 10px 0px;
   margin-top: 100px;
-  padding: 15px;
 }
-
+.homepage-button {
+margin-top: 50px;
+}
+.homepage-button-a {
+  color: var(--secondary-color);
+  background-color: transparent;
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  padding: 1.25rem 1.75rem;
+  font-family: var(--font-mono);
+  cursor: pointer;
+  margin-top: 50px;
+}
 .navbar-color {
   color: var(--primary-color);
   font-size: 16px;
@@ -91,4 +103,39 @@ footer {
 }
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(100,255,218)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+/* About Page CSS */
+img {
+  filter: grayscale(100%);
+}
+img:hover {
+  filter: none;
+}
+
+ul {
+  list-style: none;
+}
+ul.skill-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  gap: 0px 10px;
+  padding: 0px;
+  margin: 20px 0px 0px;
+}
+
+ul.skill-list li::before {
+  content: "▹";
+  color: var(--secondary-color);
+  display: inline-block;
+  width: 1em;
+  margin-left: 0em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 50px;
 }
