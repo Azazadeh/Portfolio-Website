@@ -7,7 +7,7 @@
     system-ui, sans-serif;
   --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   body.homepage {
     margin: 40px 40px 40px 40px;
   }
@@ -28,7 +28,7 @@
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   body.homepage {
     margin: 40px 40px 40px 180px;
   }
@@ -41,7 +41,7 @@
   h3 {
     font-size: 60px;
   }
-  img {
+  img.about {
     width: 300px;
     padding-top: 20px;
     margin: auto;
@@ -157,4 +157,9 @@ ul.skill-list li::before {
 p.about {
   margin: 20px 0px 0px -15px;
   max-width: 700px;
+}
+/* Work page CSS */
+.work {
+  margin-left: -100px;
+  margin-right: 40px;
 }
