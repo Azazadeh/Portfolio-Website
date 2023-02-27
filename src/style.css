@@ -20,7 +20,13 @@
   h3 {
     font-size: 40px;
   }
-  img {
+  img.about {
+    margin: auto;
+    display: block;
+    width: 200px;
+    padding-top: 20px;
+  }
+  img.work-img {
     width: 200px;
     padding-top: 20px;
     margin: auto;
@@ -46,6 +52,10 @@
     padding-top: 20px;
     margin: auto;
     display: block;
+  }
+  img.work-img {
+    width: 300px;
+    padding-top: 20px;
   }
 }
 
@@ -95,15 +105,20 @@ footer {
   font-family: var(--font-mono);
 }
 .homepage-button-a {
+  display: inline-block;
   color: var(--secondary-color);
   background-color: transparent;
   border: 1px solid var(--secondary-color);
   border-radius: 4px;
-  padding: 1.25rem 1.75rem;
+  padding: 20px 25px;
   font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
   cursor: pointer;
   margin-top: 50px;
 }
+
 .navbar-color {
   color: var(--primary-color);
   font-size: 16px;
@@ -157,9 +172,4 @@ ul.skill-list li::before {
 p.about {
   margin: 20px 0px 0px -15px;
   max-width: 700px;
-}
-/* Work page CSS */
-.work {
-  margin-left: -100px;
-  margin-right: 40px;
 }
