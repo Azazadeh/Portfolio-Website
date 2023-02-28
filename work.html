@@ -43,134 +43,137 @@
 
     <title>Portfolio Page</title>
   </head>
-  <body class="about">
-    <header>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html" title="Logo">MyLogo</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link navbar-color"
-                  aria-current="page"
-                  href="/index.html"
-                  title="Homepage"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link navbar-color"
-                  href="/about.html"
-                  title="About Page"
-                  >About</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link navbar-color"
-                  href="/work.html"
-                  title="Portfolio page"
-                  >Work</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link navbar-color"
-                  href="/contact.html"
-                  title="Contact page"
-                  >Contact</a
-                >
-              </li>
-            </ul>
+  <body>
+    <div class="page-layout">
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html" title="Logo">MyLogo</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link navbar-color"
+                    aria-current="page"
+                    href="/index.html"
+                    title="Homepage"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link navbar-color"
+                    href="/about.html"
+                    title="About Page"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link navbar-color"
+                    href="/work.html"
+                    title="Portfolio page"
+                    >Work</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link navbar-color"
+                    href="/contact.html"
+                    title="Contact page"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    </header>
-    <h1>My Projects</h1>
-    <div class="container">
-      <div class="row work">
-        <div class="col-md-4">
-          <img
-            src="/src/img/Yoga.png"
-            class="img-fluid rounded work-img"
-            alt="Yoga Pose"
-          />
-        </div>
-        <div class="col-md-4">
-          <img
-            src="/src/img/Weather app.png"
-            class="img-fluid rounded work-img"
-            alt="Wheather app"
-          />
-        </div>
-        <div class="col-md-4">
-          <img
-            src="/src/img/Greek Yogurt.png"
-            class="img-fluid rounded work-img"
-            alt="Greek Yogurt"
-          />
+        </nav>
+      </header>
+      <h1>My Projects</h1>
+      <div class="container">
+        <div class="row work">
+          <div class="col-md-4">
+            <img
+              src="/src/img/Yoga.png"
+              class="img-fluid rounded work-img"
+              alt="Yoga Pose"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="/src/img/Weather app.png"
+              class="img-fluid rounded work-img"
+              alt="Wheather app"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="/src/img/Greek Yogurt.png"
+              class="img-fluid rounded work-img"
+              alt="Greek Yogurt"
+            />
+          </div>
         </div>
       </div>
     </div>
+
+    <footer class="text-center text-white" style="background-color: #f1f1f1">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-1">
+          <!-- Google -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="mailto:azadeh.nourbakhsh@gmail.com"
+            role="button"
+            data-mdb-ripple-color="dark"
+            target="_blank"
+            title="gmail address"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://www.linkedin.com/in/azadehnourbakhsh/"
+            role="button"
+            data-mdb-ripple-color="dark"
+            target="_blank"
+            title="Linkedin link"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://github.com/Azazadeh/Portfolio-Website"
+            role="button"
+            data-mdb-ripple-color="dark"
+            target="_blank"
+            title="Github link"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+      </div>
+
+      <div class="text-center p-3 footer">
+        © 2023 Copyright:
+        <a class="footer" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+    </footer>
   </body>
-  <footer class="text-center text-white" style="background-color: #f1f1f1">
-    <!-- Grid container -->
-    <div class="container pt-4">
-      <!-- Section: Social media -->
-      <section class="mb-1">
-        <!-- Google -->
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="mailto:azadeh.nourbakhsh@gmail.com"
-          role="button"
-          data-mdb-ripple-color="dark"
-          target="_blank"
-          title="gmail address"
-          ><i class="fab fa-google"></i
-        ></a>
-
-        <!-- Linkedin -->
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="https://www.linkedin.com/in/azadehnourbakhsh/"
-          role="button"
-          data-mdb-ripple-color="dark"
-          target="_blank"
-          title="Linkedin link"
-          ><i class="fab fa-linkedin"></i
-        ></a>
-        <!-- Github -->
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="https://github.com/Azazadeh/Portfolio-Website"
-          role="button"
-          data-mdb-ripple-color="dark"
-          target="_blank"
-          title="Github link"
-          ><i class="fab fa-github"></i
-        ></a>
-      </section>
-    </div>
-
-    <div class="text-center p-3 footer">
-      © 2023 Copyright:
-      <a class="footer" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-  </footer>
 </html>
