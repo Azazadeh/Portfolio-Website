@@ -206,3 +206,7 @@ p.about {
 .form {
   background-color: transparent !important;
 }
+.form-control::placeholder { 
+            color: rgb(167, 175, 179);
+            opacity: 0.5;
+}
