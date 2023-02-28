@@ -7,7 +7,7 @@
     <meta
       data-react-helmet="true"
       name="description"
-      content="Portfolio of Azadeh Nourbakhsh, junior front-end developer."
+      content="Azadeh Nourbakhsh project examples"
     />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -15,7 +15,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="src/style.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
@@ -27,13 +27,27 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&family=Train+One&display=swap"
       rel="stylesheet"
     />
-    <title>Azadeh Nourbakhsh Portfolio page</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-ETZc+3q3Aah9/EvC1dWJzT/L//QwnoCeB4tAVsWtZ1g10C+DDTEb9X9mGJ8R/Ozj0mDy0Mx+pswCQXMh3Z3ukA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Portfolio Page</title>
   </head>
   <body class="about">
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html">MyLogo</a>
+          <a class="navbar-brand" href="/index.html" title="Logo">MyLogo</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -55,17 +69,31 @@
                   class="nav-link navbar-color"
                   aria-current="page"
                   href="/index.html"
+                  title="Homepage"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link navbar-color" href="/about.html">About</a>
+                <a
+                  class="nav-link navbar-color"
+                  href="/about.html"
+                  title="About Page"
+                  >About</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link navbar-color" href="/work.html">Work</a>
+                <a
+                  class="nav-link navbar-color"
+                  href="/work.html"
+                  title="Portfolio page"
+                  >Work</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link navbar-color" href="/contact.html"
+                <a
+                  class="nav-link navbar-color"
+                  href="/contact.html"
+                  title="Contact page"
                   >Contact</a
                 >
               </li>
@@ -88,25 +116,61 @@
           <img
             src="/src/img/Weather app.png"
             class="img-fluid rounded work-img"
-            alt="Yoga Pose"
+            alt="Wheather app"
           />
         </div>
         <div class="col-md-4">
           <img
             src="/src/img/Greek Yogurt.png"
             class="img-fluid rounded work-img"
-            alt="Yoga Pose"
+            alt="Greek Yogurt"
           />
         </div>
       </div>
     </div>
   </body>
-  <footer>
-    This website is coded by
-    <a href="https://www.linkedin.com/in/azadehnourbakhsh/">Azadeh Nourbakhsh</a
-    >, open-sourced on
-    <a href="https://github.com/Azazadeh/Portfolio-Website">GitHub</a>
-    and hosted on
-    <a href="https://keen-twilight-0ceb7d.netlify.app/">Netlify</a>
+  <footer class="text-center text-white" style="background-color: #f1f1f1">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-1">
+        <!-- Google -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="mailto:azadeh.nourbakhsh@gmail.com"
+          role="button"
+          data-mdb-ripple-color="dark"
+          target="_blank"
+          title="gmail address"
+          ><i class="fab fa-google"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://www.linkedin.com/in/azadehnourbakhsh/"
+          role="button"
+          data-mdb-ripple-color="dark"
+          target="_blank"
+          title="Linkedin link"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://github.com/Azazadeh/Portfolio-Website"
+          role="button"
+          data-mdb-ripple-color="dark"
+          target="_blank"
+          title="Github link"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+    </div>
+
+    <div class="text-center p-3 footer">
+      © 2023 Copyright:
+      <a class="footer" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
   </footer>
 </html>
